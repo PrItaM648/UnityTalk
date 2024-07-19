@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UnityTalkModelStoreContainer" CdmEntityContainer="UnityTalkEntities8">
+    <EntitySetMapping Name="AdminTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.AdminTable">
+        <MappingFragment StoreEntitySet="AdminTable">
+          <ScalarProperty Name="Adminid" ColumnName="Adminid" />
+          <ScalarProperty Name="AdminName" ColumnName="AdminName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Pwd" ColumnName="Pwd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnnouncementTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.AnnouncementTable">
+        <MappingFragment StoreEntitySet="AnnouncementTable">
+          <ScalarProperty Name="AunId" ColumnName="AunId" />
+          <ScalarProperty Name="GrpId" ColumnName="GrpId" />
+          <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+          <ScalarProperty Name="Cont" ColumnName="Cont" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EbookTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.EbookTable">
+        <MappingFragment StoreEntitySet="EbookTable">
+          <ScalarProperty Name="EbookId" ColumnName="EbookId" />
+          <ScalarProperty Name="EbookName" ColumnName="EbookName" />
+          <ScalarProperty Name="EbookDescp" ColumnName="EbookDescp" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="EbookPath" ColumnName="EbookPath" />
+          <ScalarProperty Name="EbookImgPath" ColumnName="EbookImgPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FeedBackTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.FeedBackTable">
+        <MappingFragment StoreEntitySet="FeedBackTable">
+          <ScalarProperty Name="FeedbackId" ColumnName="FeedbackId" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="cont" ColumnName="cont" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FileTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.FileTable">
+        <MappingFragment StoreEntitySet="FileTable">
+          <ScalarProperty Name="FileId" ColumnName="FileId" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+          <ScalarProperty Name="GrpId" ColumnName="GrpId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupImgTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.GroupImgTable">
+        <MappingFragment StoreEntitySet="GroupImgTable">
+          <ScalarProperty Name="GrpImgId" ColumnName="GrpImgId" />
+          <ScalarProperty Name="GrpImgPath" ColumnName="GrpImgPath" />
+          <ScalarProperty Name="ImgName" ColumnName="ImgName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupMemberTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.GroupMemberTable">
+        <MappingFragment StoreEntitySet="GroupMemberTable">
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GrpId" ColumnName="GrpId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.GroupTable">
+        <MappingFragment StoreEntitySet="GroupTable">
+          <ScalarProperty Name="GrpId" ColumnName="GrpId" />
+          <ScalarProperty Name="GrpName" ColumnName="GrpName" />
+          <ScalarProperty Name="GrpDescp" ColumnName="GrpDescp" />
+          <ScalarProperty Name="GrpAdminId" ColumnName="GrpAdminId" />
+          <ScalarProperty Name="GrpImgId" ColumnName="GrpImgId" />
+          <ScalarProperty Name="GrpMode" ColumnName="GrpMode" />
+          <ScalarProperty Name="GrpCode" ColumnName="GrpCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.MeetingTable">
+        <MappingFragment StoreEntitySet="MeetingTable">
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
+          <ScalarProperty Name="MeetingLink" ColumnName="MeetingLink" />
+          <ScalarProperty Name="CreatorId" ColumnName="CreatorId" />
+          <ScalarProperty Name="GrpId" ColumnName="GrpId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.MessageTable">
+        <MappingFragment StoreEntitySet="MessageTable">
+          <ScalarProperty Name="MsgId" ColumnName="MsgId" />
+          <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="GrpId" ColumnName="GrpId" />
+          <ScalarProperty Name="Cont" ColumnName="Cont" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ToDoTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.ToDoTable">
+        <MappingFragment StoreEntitySet="ToDoTable">
+          <ScalarProperty Name="ToDoId" ColumnName="ToDoId" />
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+          <ScalarProperty Name="Cont" ColumnName="Cont" />
+          <ScalarProperty Name="isDone" ColumnName="isDone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTables">
+      <EntityTypeMapping TypeName="UnityTalkModel.UserTable">
+        <MappingFragment StoreEntitySet="UserTable">
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Pwd" ColumnName="Pwd" />
+          <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
+          <ScalarProperty Name="UserImgPath" ColumnName="UserImgPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
