@@ -1,5 +1,5 @@
 # UnityTalk</br>
-Online Collaboration and Communication Platform              June 2021 - May 2023</br>
+Online Collaboration and Communication Platform </br>
   Developed this comprehensive online communication platform using ASP.NET and C#, enabling user registration, group
 management, and collaborative tools.</br>
   Built a real-time chat window using SignalR and jQuery.</br>
